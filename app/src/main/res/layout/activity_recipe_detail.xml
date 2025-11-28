@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_food"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="Борщ"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="@color/textDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvIngredients"
+            android:layout_marginTop="16dp"
+            android:text="Ингредиенты"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvIngredientsList"
+            android:layout_marginTop="4dp"
+            android:text="• Картофель\n• Мясо\n• Свекла"
+            android:textColor="@color/textLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvSteps"
+            android:layout_marginTop="16dp"
+            android:text="Приготовление"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvStepsList"
+            android:layout_marginTop="4dp"
+            android:text="1. Нарезать овощи...\n2. Добавить воду..."
+            android:textColor="@color/textLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

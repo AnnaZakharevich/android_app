@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <!-- Дополнительные нейтральные цвета, если понадобятся -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="textLight">#FFFFFFFF</color>
+    <color name="textDark">#FF000000</color>
+    <color name="bgLight">#FFF5F5F5</color>
+    <color name="colorPrimary">#FF6200EE</color>
+</resources>

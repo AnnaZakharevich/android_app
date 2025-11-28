@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Рецепты</string>
+    <string name="categories">Категории</string>
+    <string name="favorites">Избранное</string>
+    <string name="search_hint">Введите название...</string>
+    <string name="about_app">О приложении</string>
+    <string name="help">Помощь</string>
+</resources>
